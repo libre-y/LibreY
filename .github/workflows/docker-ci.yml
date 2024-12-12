@@ -1,5 +1,8 @@
 name: LibreY
 on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
 services:
   librey:
     image: ghcr.io/ahwxorg/librey:latest
